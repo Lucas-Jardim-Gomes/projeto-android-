@@ -73,9 +73,11 @@ body {
 article {
     background-color: white;
     max-width: 950px;
+    min-width: 320px;
     margin: auto;
     padding: 10px;
     box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
+    
     
 }
 article > h1 {
@@ -115,7 +117,7 @@ p {
     padding: 1%;
     padding-bottom: 36%;
     max-width: 944px;
-    min-width: 400px;
+    min-width: 320px;
     align-content: center;
     box-shadow: -5px 3px 10px rgb(0 0 0 / 45%);
     position:relative;
