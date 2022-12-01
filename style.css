@@ -40,9 +40,10 @@ header > h1 {
     font-size: 3em;
 }
 header > p {
-    margin: 20px;
+    margin: auto;
     text-align: center;
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.349);
+    max-width: 480px;
 }
 nav {
     background-color: var(--cor5);
@@ -83,8 +84,40 @@ h2 {
     border-radius: 4px;
     font-family: var(--fonte2);
     color: var(--cor4);
+    margin: 10px 0px;
 }
 p {
     line-height: 2em;
     text-indent: 2em;
 }
+ main strong {
+    background-color: #3ddc85;
+    padding: 5px;
+    border-radius: 3px;
+ }
+ article a {
+    color: var(--cor2);
+ }
+ article img {
+    width: 100%;
+ }
+ .bugdroid {
+    max-width: 400px;
+    margin: auto;
+    display: block;
+ }
+ div.video {
+    background-color: var(--cor4);
+    max-width: 895px;
+    margin: auto;
+    padding: 1%;
+    position: relative;
+    
+    
+ }
+
+ div .video > iframe {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+ }
