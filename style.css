@@ -38,6 +38,7 @@ header > h1 {
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.349);
     font-weight: normal;
     font-size: 3em;
+    text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
 }
 header > p {
     margin: auto;
@@ -74,6 +75,7 @@ article {
     max-width: 900px;
     margin: auto;
     padding: 10px;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
 }
 article > h1 {
     font-family: var(--fonte2);
@@ -112,6 +114,7 @@ p {
     margin: auto;
     padding: 1%;
     position: relative;
+    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
        
  }
 
@@ -125,6 +128,15 @@ p {
     background-color: var(--cor0);
     max-width: 800px;
     margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+ }
+ 
+ h3 {
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
  }
  footer {
     background-color: var(--cor5);
