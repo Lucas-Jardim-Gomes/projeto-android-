@@ -117,7 +117,7 @@ p {
     background-color: var(--cor5);
     margin:auto;
     padding: 1%;
-    padding-bottom: 36%;
+    padding-bottom: 56%;
     max-width: 944px;
     min-width: 320px;
     align-content: center;
@@ -171,4 +171,5 @@ section {
     box-shadow: -3px -4px 5px rgba(0, 0, 0, 0.479);
     margin-top: 20px;
     width: 100%;
+    margin: 0px;
  }
