@@ -6,6 +6,7 @@
 }
 * {
     margin: 0px;
+    padding: 0px;
     text-decoration: none;
     text-align: justify;
     font-family: var(--fonte0);
@@ -34,7 +35,8 @@ header {
 header > h1 {
     font-family: var(--fonte1);
     text-align: center;
-    padding: 30px;
+    margin: auto;
+    padding: 10px;
     text-shadow: -2px 2px 2px rgba(0, 0, 0, 0.349);
     font-weight: normal;
     font-size: 3em;
@@ -72,13 +74,17 @@ body {
     width: 100%;
 
 }
+
 article {
     background-color: white;
-    max-width: 950px;
+    max-width: 850px;
     min-width: 320px;
     margin: auto;
     padding: 10px;
     box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
     
     
 }
@@ -115,13 +121,9 @@ p {
  }
  div.video {
     background-color: var(--cor5);
-    margin:auto;
-    padding: 1%;
-    padding-bottom: 56%;
-    max-width: 944px;
-    min-width: 320px;
-    align-content: center;
-    box-shadow: -5px 3px 10px rgb(0 0 0 / 45%);
+    margin: 0px -10px 30px -10px;
+    padding: 20px;
+    padding-bottom: 58%;
     position:relative;
     
 }
@@ -129,22 +131,13 @@ div.video > iframe {
     position:absolute;
     top: 5%;
     left: 5%;
-    right: 5%;
     width: 90%;
     height: 90%;
 }
-section {
-    background-color: white;
-    max-width: 950px;
-    margin: auto;
-    padding:10px;
-    box-shadow: -3px 3px 6px rgba(0, 0, 0, 0.452);
-    border-radius: 0px 0px 10px 10px;
-    
-}
+
  aside {
     background-color: var(--cor0);
-    max-width: 900px;
+    max-width: 850px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     padding: 25px;
@@ -166,10 +159,10 @@ section {
  footer {
     background-color: var(--cor5);
     color: white;
-    text-align: center;
-    padding: 5px;
-    box-shadow: -3px -4px 5px rgba(0, 0, 0, 0.479);
-    margin-top: 20px;
+    padding: 0px;
     width: 100%;
-    
+
+ }
+ footer > p {
+     text-align: center;
  }
