@@ -11,6 +11,7 @@
     text-align: justify;
     font-family: var(--fonte0);
     font-weight: 600;
+    box-sizing: border-box;
 }
 :root {
     --cor0: #c5ebd6;
