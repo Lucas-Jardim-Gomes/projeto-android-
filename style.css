@@ -139,6 +139,7 @@ div.video > iframe {
  aside {
     background-color: var(--cor0);
     max-width: 850px;
+    box-shadow: -2px 3px 4px rgb(0 0 0 / 16%);
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     padding: 25px;
@@ -156,6 +157,7 @@ div.video > iframe {
     color: white;
     border-radius: 10px 10px 0px 0px;
     padding: 5px;
+    box-shadow: -2px 3px 4px rgb(0 0 0 / 16%);
  }
  footer {
     background-color: var(--cor5);
